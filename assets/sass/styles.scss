@@ -27,7 +27,6 @@
 	}
 }
 
-
 .card{
 	box-shadow: 0 1px 1px rgba(0,0,0,.05);
 	border: solid 1px #ddd;
@@ -45,6 +44,27 @@
 
 .card-body{
 	background-color: #fff;
-	color: #828A91;
+	color: #293a46;
+	text-align: center;
 }
 
+.panel-profile-img{
+	max-width: 100px;
+    margin-top: -70px;
+    margin-bottom: 10px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.card-title{
+	font-size: 17px;
+	margin-bottom: 5px;
+}
+
+.card-text{
+	font-size: 16px;
+}
