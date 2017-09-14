@@ -1,4 +1,50 @@
-.container {
-  background-color: blue;
-  color: #fff;
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+	@media (max-width: 575px){
+		width: 100%;
+		padding: 5px;
+	}
+    margin-left: auto;
+    margin-right: auto; 
+    width: 400px;
+}
+
+.card-body, .card-header{
+	@media (max-width: 575px){
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
+
+.card{
+	box-shadow: 0 1px 1px rgba(0,0,0,.05);
+	border: solid 1px #ddd;
+	
+}
+
+.card-header{
+	height: 150px;
+	background-color: #ddd;
+	border: none;
+	&:first-child{
+		border-radius: 0;
+	}
+}
+
+.card-body{
+	background-color: #fff;
+	color: #828A91;
+}
+

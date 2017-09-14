@@ -1,4 +1,58 @@
 /* line 1, ../sass/styles.scss */
-.container {
-  
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+/* line 8, ../sass/styles.scss */
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 13, ../sass/styles.scss */
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+@media (max-width: 575px) {
+  /* line 13, ../sass/styles.scss */
+  .inner {
+    width: 100%;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 575px) {
+  /* line 23, ../sass/styles.scss */
+  .card-body, .card-header {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+/* line 31, ../sass/styles.scss */
+.card {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  border: solid 1px #ddd;
+}
+
+/* line 37, ../sass/styles.scss */
+.card-header {
+  height: 150px;
+  background-color: #ddd;
+  border: none;
+}
+/* line 41, ../sass/styles.scss */
+.card-header:first-child {
+  border-radius: 0;
+}
+
+/* line 46, ../sass/styles.scss */
+.card-body {
+  background-color: #fff;
+  color: #828A91;
 }
