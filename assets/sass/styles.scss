@@ -46,6 +46,13 @@
 	background-color: #fff;
 	color: #293a46;
 	text-align: center;
+	a{
+		color: #293a46;
+		&:hover{
+			text-decoration: none;
+		}
+	}
+
 }
 
 .panel-profile-img{

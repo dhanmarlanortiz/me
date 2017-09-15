@@ -57,8 +57,16 @@
   color: #293a46;
   text-align: center;
 }
-
+/* line 49, ../sass/styles.scss */
+.card-body a {
+  color: #293a46;
+}
 /* line 51, ../sass/styles.scss */
+.card-body a:hover {
+  text-decoration: none;
+}
+
+/* line 58, ../sass/styles.scss */
 .panel-profile-img {
   max-width: 100px;
   margin-top: -70px;
@@ -71,13 +79,13 @@
   display: block;
 }
 
-/* line 63, ../sass/styles.scss */
+/* line 70, ../sass/styles.scss */
 .card-title {
   font-size: 17px;
   margin-bottom: 5px;
 }
 
-/* line 68, ../sass/styles.scss */
+/* line 75, ../sass/styles.scss */
 .card-text {
   font-size: 16px;
 }

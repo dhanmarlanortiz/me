@@ -9,18 +9,29 @@
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/styles.css">
+		<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/animate/animate.min.css">
 	</head>
 	<body>
 
 		<div class="outer">
 			<div class="middle">
 				<div class="inner">
-					<div class="card text-white bg-secondary">
+					<div class="card animated fadeIn">
 						<div class="card-header"></div>
 						<div class="card-body">
-							<img class="panel-profile-img" src="assets/images/codeninja.jpg">
-							<h5 class="card-title">Dhan Marlan Ortiz</h5>
-							<p class="card-text">Web Developer</p>
+							<img class="panel-profile-img animated rotateIn" src="assets/images/codeninja.jpg">
+							<h5 class="card-title animated fadeIn">Dhan Marlan Ortiz</h5>
+							<p class="card-text animated fadeIn">Web Developer</p>
+							<a class="social" href="https://www.linkedin.com/in/dhan-marlan-ortiz-0a3193120" target="_blank">
+								<i class="fa fa-linkedin-square fa-fw fa-2x animated bounceIn"></i>
+							</a>
+							<a class="social" href="mailto:dhan.marlan.ortiz@gmail.com" target="_top">
+								<i class="fa fa-envelope-o fa-fw fa-2x animated bounceIn"></i>
+							</a>
+							<a class="social" href="https://github.com/dhanmarlanortiz" target="_blank">
+								<i class="fa fa-github fa-fw fa-2x animated bounceIn"></i>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -32,5 +43,18 @@
 		<script src="assets/js/jquery-3.2.1.slim.min.js"></script>
 		<script src="assets/js/popper.min.js"></script>
 		<script src="assets/js/bootstrap.min.js"></script>
+		<script>
+			jQuery(document).ready(function(){
+				 $(".social i").hover(
+				  function () {
+				    $(this).addClass("infinite");
+				  },
+				  function () {
+				    $(this).removeClass("infinite");
+				  }
+				);
+			});
+		</script>
+
 	</body>
 </html>
