@@ -1,72 +1,47 @@
-/* line 1, ../sass/styles.scss */
 .outer {
   display: table;
   position: absolute;
   height: 100%;
-  width: 100%;
-}
+  width: 100%; }
 
-/* line 8, ../sass/styles.scss */
 .middle {
   display: table-cell;
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
-/* line 13, ../sass/styles.scss */
 .inner {
   margin-left: auto;
   margin-right: auto;
-  width: 320px;
-}
-@media (max-width: 337px) {
-  /* line 13, ../sass/styles.scss */
-  .inner {
-    width: 100%;
-    padding: 5px;
-  }
-}
+  width: 320px; }
+  @media (max-width: 337px) {
+    .inner {
+      width: 100%;
+      padding: 5px; } }
 
 @media (max-width: 337px) {
-  /* line 23, ../sass/styles.scss */
   .card-body, .card-header {
     padding-left: 5px;
-    padding-right: 5px;
-  }
-}
+    padding-right: 5px; } }
 
-/* line 30, ../sass/styles.scss */
 .card {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-  border: solid 1px #ddd;
-}
+  border: solid 1px #ddd; }
 
-/* line 36, ../sass/styles.scss */
 .card-header {
   height: 150px;
   background-color: #ddd;
-  border: none;
-}
-/* line 40, ../sass/styles.scss */
-.card-header:first-child {
-  border-radius: 0;
-}
+  border: none; }
+  .card-header:first-child {
+    border-radius: 0; }
 
-/* line 45, ../sass/styles.scss */
 .card-body {
   background-color: #fff;
   color: #293a46;
-  text-align: center;
-}
-/* line 49, ../sass/styles.scss */
-.card-body a {
-  color: #293a46;
-}
-/* line 51, ../sass/styles.scss */
-.card-body a:hover {
-  text-decoration: none;
-}
+  text-align: center; }
+  .card-body a {
+    color: #293a46; }
+    .card-body a:hover {
+      text-decoration: none; }
 
-/* line 58, ../sass/styles.scss */
 .panel-profile-img {
   max-width: 100px;
   margin-top: -70px;
@@ -76,16 +51,25 @@
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   margin-left: auto;
   margin-right: auto;
-  display: block;
-}
+  display: block; }
 
-/* line 70, ../sass/styles.scss */
 .card-title {
   font-size: 17px;
-  margin-bottom: 5px;
-}
+  margin-bottom: 5px; }
 
-/* line 75, ../sass/styles.scss */
 .card-text {
-  font-size: 16px;
-}
+  font-size: 16px; }
+
+.card-header {
+  background-image: url("assets/images/banner.jpg");
+  background-size: 320px auto;
+  position: relative; }
+
+.ccto {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+  width: 20%; }
+
+/*# sourceMappingURL=styles.css.map */
